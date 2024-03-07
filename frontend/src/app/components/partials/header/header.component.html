@@ -1,1 +1,47 @@
-<p>header works!</p>
+<header>
+    <nav class="navbar navbar-expand-lg" style="background-color: #ffffff;  border: 3px solid #f39b9b;">
+      <div class="container-fluid">
+        <a class="navbar-brand" routerLink="/"><img class="img-fluid" src="./assets/logo.png" alt="Foodmine corporation" width="100rem"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link fs-5"routerLink="/login">Login</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle fs-5"
+                routerLink=""
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Priyanshu
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" routerLink="/profile">Profile</a></li>
+                <li><a class="dropdown-item" routerLink="/Orders">Orders</a></li>
+                <li><a class="dropdown-item" routerLink="/logout">Logout</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/cart"><i class="bi bi-cart"></i><img src="./assets/shopping-cart.png" alt="" width="28rem"> <span class="position-absolute top-1 start-95 translate-middle badge rounded-pill bg-danger">3</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+ 
