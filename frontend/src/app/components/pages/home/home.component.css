@@ -88,3 +88,11 @@ ul{
     margin-top: 0.7rem;
     font-size: 1.1rem;
   }
+  .home{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .home:hover{
+    transform: scale(1.05);
+  }
