@@ -2,7 +2,6 @@
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    margin: 1.5rem;
     margin-top: 0.5rem;
   }
   
@@ -112,7 +111,7 @@
   .checkout a {
     padding: 1rem;
     color: white;
-    background: linear-gradient(to right, #e72929, #ff4444);
+    background: linear-gradient(to right, #e72929, #0067ff);
     display: block;
     width: 99%;
     border-radius: 1rem;
