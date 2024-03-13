@@ -19,7 +19,7 @@ export class FoodPageComponent {
     private cartservice:CartService
   ) {
     activatedRouter.params.subscribe((params) => {
-      if (params.id) this.food = foodservice.getfoodbyid(params.id);
+      if (params.id) foodservice.getfoodbyid(params.id).subscribe(serverFood =>{this.food = serverFood});
     });
   }
   addToCart() {
